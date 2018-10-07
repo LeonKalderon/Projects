@@ -1,0 +1,4 @@
+LOAD CSV WITH HEADERS FROM "file:///clusters.csv" AS csvLine
+MATCH (u:User {id:csvLine.USERID})
+MATCH (c:Cluster {id:csvLine.CLUSTER})
+CREATE (u)-[:BELONGS{distance:csvLine.DISTANCE}]->(c) 

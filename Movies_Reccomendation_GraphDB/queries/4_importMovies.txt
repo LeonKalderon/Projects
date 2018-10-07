@@ -1,0 +1,2 @@
+LOAD CSV WITH HEADERS FROM "file:///uitems.csv" AS csvLine
+CREATE (u:Movie {id:csvLine.ID, name:csvLine.NAME, DateToDVD:csvLine.RD, URL:csvLine.LINK})

@@ -1,0 +1,2 @@
+LOAD CSV WITH HEADERS FROM "file:///ugenre.csv" AS csvLine
+CREATE (u:Genre {id:csvLine.ID, name:csvLine.GENRE})

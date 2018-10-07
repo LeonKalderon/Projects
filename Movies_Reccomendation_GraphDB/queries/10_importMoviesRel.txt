@@ -1,0 +1,4 @@
+LOAD CSV WITH HEADERS FROM "file:///postrules.csv" AS csvLine
+MATCH (u:Movie {id:csvLine.PRERULE})
+MATCH (v:Movie {id:csvLine.POSTRULE})
+CREATE (u)-[:POSTRULE{support:csvLine.SUPPORT,conf:csvLine.CONFIDENCE,lift:csvLine.LIFT}]->(v)

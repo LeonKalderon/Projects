@@ -1,0 +1,4 @@
+LOAD CSV WITH HEADERS FROM "file:///udata.csv" AS csvLine
+MATCH (u:User {id:csvLine.USER})
+MATCH (m:Movie {id:csvLine.MOVIE})
+CREATE (u)-[:RATED{rate:csvLine.RATE}]->(m)

@@ -1,0 +1,2 @@
+LOAD CSV WITH HEADERS FROM "file:///uoccupation.csv" AS csvLine
+CREATE (u:Occupation {id:csvLine.ID, name:csvLine.OCCUP})

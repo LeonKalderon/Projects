@@ -1,0 +1,8 @@
+MATCH (u:User {id:"1"})-[r1:RATED]->(m:Movie)-[c:CHARACTERIZED]->(g:Genre)
+WITH g,avg(toInt(r1.rate)) AS avgGenre
+ORDER BY avgGenre DESC
+LIMIT 2
+MATCH (g)<-[c2:CHARACTERIZED]-(m2:Movie)<-[r2:RATED]-(u2:User)
+WITH m2,avg(toInt(r2.rate)) AS avgMovie
+return m2.name as Title,avgMovie
+ORDER BY avgMovie DESC

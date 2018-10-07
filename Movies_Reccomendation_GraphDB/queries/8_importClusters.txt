@@ -1,0 +1,3 @@
+LOAD CSV WITH HEADERS FROM "file:///clustercent.csv" AS csvLine
+CREATE (c:Cluster {id:csvLine.id,commercial:csvLine.f1,childern:csvLine.f2,
+adv_sci:csvLine.f3,horror:csvLine.f4,documentary:csvLine.f5})

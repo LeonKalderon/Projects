@@ -1,0 +1,2 @@
+LOAD CSV WITH HEADERS FROM "file:///uuser.csv" AS csvLine
+CREATE (u:User {id:csvLine.USERID, age:csvLine.AGE, sex:csvLine.SEX, zip:csvLine.ZIP})

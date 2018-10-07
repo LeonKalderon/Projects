@@ -1,0 +1,6 @@
+match (u1:User {id:"1"})-[b1:BELONGS]->(c:Cluster)<-[b2:BELONGS]-(u2:User)-[r:RATED]->(m:Movie)
+WITH m,avg(toInt(r.rate)) AS avgRate, count(r) AS count
+WHERE  avgRate>4 
+return   m.name,count,avgRate
+ORDER BY count DESC 
+LIMIT 200

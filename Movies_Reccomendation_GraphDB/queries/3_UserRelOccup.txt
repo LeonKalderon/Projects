@@ -1,0 +1,4 @@
+LOAD CSV WITH HEADERS FROM "file:///uuser.csv" AS csvLine
+MATCH (u:User {id:csvLine.USERID})
+MATCH (v:Occupation {name:csvLine.OCCUPATION})
+CREATE (u)-[:WORK]->(v)

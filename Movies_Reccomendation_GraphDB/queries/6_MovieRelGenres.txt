@@ -1,0 +1,4 @@
+LOAD CSV WITH HEADERS FROM "file:///movies_genre.csv" AS csvLine
+MATCH (m:Movie {id:csvLine.MOVIEID})
+MATCH (g:Genre {id:csvLine.GENRE})
+CREATE (m)-[:CHARACTERIZED]->(g)

@@ -1,0 +1,4 @@
+MATCH (u:User)-[r:RATED]-(m:Movie)
+WITH m,count(r) AS views
+RETURN m.name AS Name,m.DateToDVD AS ReleaseDate,views
+ORDER BY  views DESC LIMIT 250

@@ -1,0 +1,5 @@
+MATCH (u:User {id:"1"})-[r:RATED]->(m1:Movie)-[p:POSTRULE]->(m2:Movie)<-[r2:RATED]-(u1:User)
+WHERE NOT (u)-[r]->(m2)
+RETURN  m2.name,avg(toInt(r2.rate)),  count(r2) as count
+ORDER BY count DESC 
+LIMIT 100

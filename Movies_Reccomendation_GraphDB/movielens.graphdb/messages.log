@@ -1,0 +1,380 @@
+2016-07-05 19:48:51.888+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] No locking implementation specified, defaulting to 'community'
+2016-07-05 19:48:52.188+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2016-07-05 19:48:52.210+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2016-07-05 19:48:52.210+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2016-07-05 19:48:52.211+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.db.tuning.properties=C:\Users\User\Desktop\project4_neo4j\project4_neo4j\movielens.graphdb\neo4j.properties
+2016-07-05 19:48:52.211+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.database.location=C:\Users\User\Desktop\project4_neo4j\project4_neo4j\movielens.graphdb
+2016-07-05 19:48:52.211+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.querylog.filename=data/log/queries.log
+2016-07-05 19:48:52.211+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_store.location=C:\Users\User\Desktop\project4_neo4j\project4_neo4j\movielens.graphdb\.\dbms\auth
+2016-07-05 19:48:52.211+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_certificate_file=C:\Users\User\Desktop\project4_neo4j\project4_neo4j\movielens.graphdb\.\dbms\ssl\snakeoil.cert
+2016-07-05 19:48:52.211+0000 INFO  [o.n.k.i.DiagnosticsManager] remote_shell_enabled=true
+2016-07-05 19:48:52.211+0000 INFO  [o.n.k.i.DiagnosticsManager] edition=Community
+2016-07-05 19:48:52.211+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_key_file=C:\Users\User\Desktop\project4_neo4j\project4_neo4j\movielens.graphdb\.\dbms\ssl\snakeoil.key
+2016-07-05 19:48:52.212+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2016-07-05 19:48:52.212+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2016-07-05 19:48:52.212+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2016-07-05 19:48:52.212+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2016-07-05 19:48:52.212+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2016-07-05 19:48:52.212+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2016-07-05 19:48:52.212+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2016-07-05 19:48:52.212+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2016-07-05 19:48:52.212+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2016-07-05 19:48:52.212+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2016-07-05 19:48:52.212+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2016-07-05 19:48:52.212+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2016-07-05 19:48:52.224+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 3,95 GB
+2016-07-05 19:48:52.225+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 2,32 GB
+2016-07-05 19:48:52.225+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 169,36 MB
+2016-07-05 19:48:52.225+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 7,90 GB
+2016-07-05 19:48:52.225+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 4,72 GB
+2016-07-05 19:48:52.225+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2016-07-05 19:48:52.225+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 30,64 MB
+2016-07-05 19:48:52.226+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 61,00 MB
+2016-07-05 19:48:52.226+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 899,50 MB
+2016-07-05 19:48:52.271+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2016-07-05 19:48:52.271+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2016-07-05 19:48:52.272+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=2,44 MB, used=1,29 MB, max=48,00 MB, threshold=0,00 B
+2016-07-05 19:48:52.273+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=16,50 MB, used=10,24 MB, max=332,50 MB, threshold=?
+2016-07-05 19:48:52.274+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=2,50 MB, used=2,48 MB, max=2,50 MB, threshold=?
+2016-07-05 19:48:52.274+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=42,00 MB, used=17,64 MB, max=674,50 MB, threshold=0,00 B
+2016-07-05 19:48:52.276+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Perm Gen (Non-heap memory): committed=22,50 MB, used=22,38 MB, max=82,00 MB, threshold=0,00 B
+2016-07-05 19:48:52.276+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2016-07-05 19:48:52.276+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 4
+2016-07-05 19:48:52.365+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 7684@User-HP
+2016-07-05 19:48:52.365+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2016-07-05 19:48:52.365+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/Athens
+2016-07-05 19:48:52.366+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2016-07-05 19:48:52.366+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2016-07-05 19:48:52.366+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2016-07-05 19:48:52.366+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 24.80-b11
+2016-07-05 19:48:52.379+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2016-07-05 19:48:52.380+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dexe4j.semaphoreName=Local\c:_program_files_neo4j_ce_2.3.1_bin_neo4j-ce.exe, -Dexe4j.isInstall4j=true, -Dexe4j.moduleName=C:\Program Files\Neo4j CE 2.3.1\bin\neo4j-ce.exe, -Dexe4j.tempDir=, -Dexe4j.unextractedPosition=0, -Djava.library.path=C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\HP SimplePass 2011\;C:\Program Files\Broadcom\Broadcom 802.11\Driver;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Broadcom\WHL\;C:\Program Files\Broadcom\WHL\syswow64;C:\Program Files\Broadcom\WHL\SysWow64\;C:\Program Files\Broadcom\WHL\SysWow64\syswow64;C:\Program Files (x86)\Intel\Services\IPT\;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Common Files\Propellerhead Software\ReWire\;C:\Program Files\Common Files\Propellerhead Software\ReWire\;C:\Program Files\Java\jdk1.8.0_66\bin;c:\program files\neo4j ce 2.3.1\jre\bin, -Dexe4j.consoleCodepage=cp0, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false]
+2016-07-05 19:48:52.380+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2016-07-05 19:48:52.384+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/dnsns.jar
+2016-07-05 19:48:52.384+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/bin/
+2016-07-05 19:48:52.384+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.1\jre\lib\resources.jar
+2016-07-05 19:48:52.384+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.1\jre\lib\jfr.jar
+2016-07-05 19:48:52.384+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] C:\Program Files\Neo4j CE 2.3.1\.install4j\i4jruntime.jar
+2016-07-05 19:48:52.384+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/sunmscapi.jar
+2016-07-05 19:48:52.384+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.1\jre\lib\jsse.jar
+2016-07-05 19:48:52.384+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/dns_sd.jar
+2016-07-05 19:48:52.384+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/.install4j/i4jruntime.jar
+2016-07-05 19:48:52.384+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/bin/neo4j-desktop-2.3.1.jar
+2016-07-05 19:48:52.385+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/access-bridge-64.jar
+2016-07-05 19:48:52.385+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/localedata.jar
+2016-07-05 19:48:52.385+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.1\jre\lib\sunrsasign.jar
+2016-07-05 19:48:52.385+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.1\jre\lib\jce.jar
+2016-07-05 19:48:52.385+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.1\jre\lib\rt.jar
+2016-07-05 19:48:52.385+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.1\jre\lib\charsets.jar
+2016-07-05 19:48:52.385+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/sunjce_provider.jar
+2016-07-05 19:48:52.385+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.1\jre\classes
+2016-07-05 19:48:52.385+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/zipfs.jar
+2016-07-05 19:48:52.385+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/jaccess.jar
+2016-07-05 19:48:52.385+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/sunec.jar
+2016-07-05 19:48:52.385+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] C:\Program Files\Neo4j CE 2.3.1\bin\neo4j-desktop-2.3.1.jar
+2016-07-05 19:48:52.385+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2016-07-05 19:48:52.386+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\ProgramData\Oracle\Java\javapath
+2016-07-05 19:48:52.387+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\HP SimplePass 2011
+2016-07-05 19:48:52.387+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Broadcom\Broadcom 802.11\Driver
+2016-07-05 19:48:52.388+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\AMD APP\bin\x86_64
+2016-07-05 19:48:52.388+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\AMD APP\bin\x86
+2016-07-05 19:48:52.389+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Common Files\Microsoft Shared\Windows Live
+2016-07-05 19:48:52.389+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Common Files\microsoft shared\Windows Live
+2016-07-05 19:48:52.390+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32
+2016-07-05 19:48:52.390+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows
+2016-07-05 19:48:52.390+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32\wbem
+2016-07-05 19:48:52.391+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2016-07-05 19:48:52.391+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Windows Live\Shared
+2016-07-05 19:48:52.392+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static
+2016-07-05 19:48:52.392+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\WIDCOMM\Bluetooth Software
+2016-07-05 19:48:52.393+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\WIDCOMM\Bluetooth Software\syswow64
+2016-07-05 19:48:52.393+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Broadcom\WHL
+2016-07-05 19:48:52.394+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Broadcom\WHL\SysWow64
+2016-07-05 19:48:52.396+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Broadcom\WHL\SysWow64
+2016-07-05 19:48:52.396+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Broadcom\WHL\SysWow64\syswow64
+2016-07-05 19:48:52.398+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Intel\Services\IPT
+2016-07-05 19:48:52.399+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64
+2016-07-05 19:48:52.400+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin
+2016-07-05 19:48:52.400+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin
+2016-07-05 19:48:52.401+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn
+2016-07-05 19:48:52.401+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Skype\Phone
+2016-07-05 19:48:52.402+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Common Files\Propellerhead Software\ReWire
+2016-07-05 19:48:52.402+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Common Files\Propellerhead Software\ReWire
+2016-07-05 19:48:52.403+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Java\jdk1.8.0_66\bin
+2016-07-05 19:48:52.404+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Neo4j CE 2.3.1\jre\bin
+2016-07-05 19:48:52.404+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2016-07-05 19:48:52.405+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.moduleName = C:\Program Files\Neo4j CE 2.3.1\bin\neo4j-ce.exe
+2016-07-05 19:48:52.405+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.semaphoreName = Local\c:_program_files_neo4j_ce_2.3.1_bin_neo4j-ce.exe
+2016-07-05 19:48:52.405+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = c:\program files\neo4j ce 2.3.1\jre\bin
+2016-07-05 19:48:52.405+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.consoleCodepage = cp0
+2016-07-05 19:48:52.405+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = ;
+2016-07-05 19:48:52.405+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2016-07-05 19:48:52.405+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = GR
+2016-07-05 19:48:52.405+0000 INFO  [o.n.k.i.DiagnosticsManager] user.script = 
+2016-07-05 19:48:52.405+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = Service Pack 1
+2016-07-05 19:48:52.405+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.exeDir = C:\Program Files\Neo4j CE 2.3.1\bin\
+2016-07-05 19:48:52.405+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = C:\Program Files\Neo4j CE 2.3.1\bin
+2016-07-05 19:48:52.405+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.ext.udc.source = desktop
+2016-07-05 19:48:52.405+0000 INFO  [o.n.k.i.DiagnosticsManager] user.variant = 
+2016-07-05 19:48:52.405+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.tempDir = 
+2016-07-05 19:48:52.405+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = Cp1253
+2016-07-05 19:48:52.405+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2016-07-05 19:48:52.406+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2016-07-05 19:48:52.406+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2016-07-05 19:48:52.406+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.isInstall4j = true
+2016-07-05 19:48:52.406+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2016-07-05 19:48:52.406+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = C:\Users\User
+2016-07-05 19:48:52.406+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/Athens
+2016-07-05 19:48:52.406+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = Cp1253
+2016-07-05 19:48:52.406+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = User
+2016-07-05 19:48:52.406+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = C:\Program Files\Neo4j CE 2.3.1\bin\neo4j-ce.exe
+2016-07-05 19:48:52.406+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2016-07-05 19:48:52.406+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.launchName = C:\Program Files\Neo4j CE 2.3.1\bin\neo4j-ce.exe
+2016-07-05 19:48:52.406+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = el
+2016-07-05 19:48:52.406+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.windows.WToolkit
+2016-07-05 19:48:52.406+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.unextractedPosition = 0
+2016-07-05 19:48:52.406+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.appDir = C:\Program Files\Neo4j CE 2.3.1\
+2016-07-05 19:48:52.406+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = \
+2016-07-05 19:48:52.406+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2016-07-05 19:48:52.407+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2016-07-05 19:48:52.407+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.desktop = windows
+2016-07-05 19:48:52.407+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = amd64
+2016-07-05 19:48:52.407+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2016-07-05 19:48:52.491+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Software Loopback Interface 1:
+2016-07-05 19:48:52.491+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2016-07-05 19:48:52.492+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2016-07-05 19:48:52.492+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (SSTP):
+2016-07-05 19:48:52.492+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (L2TP):
+2016-07-05 19:48:52.492+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (PPTP):
+2016-07-05 19:48:52.492+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (PPPOE):
+2016-07-05 19:48:52.492+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IPv6):
+2016-07-05 19:48:52.492+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (Network Monitor):
+2016-07-05 19:48:52.492+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IP):
+2016-07-05 19:48:52.492+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface RAS Async Adapter:
+2016-07-05 19:48:52.492+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IKEv2):
+2016-07-05 19:48:52.493+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe FE Family Controller:
+2016-07-05 19:48:52.493+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:28a7:57a:991f:e9e9%11
+2016-07-05 19:48:52.493+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Microsoft 6to4:
+2016-07-05 19:48:52.493+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Wi-Fi Broadcom 4313GN 802.11b/g/n 1x1:
+2016-07-05 19:48:52.493+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 192.168.1.5
+2016-07-05 19:48:52.493+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 2a02:582:24bb:e600:f0b0:51ab:47b:cefd
+2016-07-05 19:48:52.493+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 2a02:582:24bb:e600:35d9:e260:a792:6ad8
+2016-07-05 19:48:52.493+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:f0b0:51ab:47b:cefd%13
+2016-07-05 19:48:52.493+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Συσκευή Bluetooth (προσωπικό δίκτυο):
+2016-07-05 19:48:52.494+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Bluetooth Device (RFCOMM Protocol TDI):
+2016-07-05 19:48:52.495+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Bluetooth Personal Area Network:
+2016-07-05 19:48:52.495+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:8d51:44f5:544a:82f3%16
+2016-07-05 19:48:52.495+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface null:
+2016-07-05 19:48:52.496+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Microsoft ISATAP #2:
+2016-07-05 19:48:52.496+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Microsoft ISATAP #4:
+2016-07-05 19:48:52.496+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Microsoft ISATAP #5:
+2016-07-05 19:48:52.496+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Microsoft ISATAP #3:
+2016-07-05 19:48:52.496+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:5efe:c0a8:105%21
+2016-07-05 19:48:52.496+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Wi-Fi Broadcom 4313GN 802.11b/g/n 1x1-QoS Packet Scheduler-0000:
+2016-07-05 19:48:52.496+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Wi-Fi Broadcom 4313GN 802.11b/g/n 1x1-Virtual WiFi Filter Driver-0000:
+2016-07-05 19:48:52.496+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe FE Family Controller-Network Activity Hook Server - LightWeight Filter-0000:
+2016-07-05 19:48:52.496+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe FE Family Controller-QoS Packet Scheduler-0000:
+2016-07-05 19:48:52.497+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IPv6)-Network Activity Hook Server - LightWeight Filter-0000:
+2016-07-05 19:48:52.497+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000:
+2016-07-05 19:48:52.497+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (Network Monitor)-Network Activity Hook Server - LightWeight Filter-0000:
+2016-07-05 19:48:52.497+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000:
+2016-07-05 19:48:52.497+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IP)-Network Activity Hook Server - LightWeight Filter-0000:
+2016-07-05 19:48:52.497+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe FE Family Controller-WFP LightWeight Filter-0000:
+2016-07-05 19:48:52.497+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IP)-QoS Packet Scheduler-0000:
+2016-07-05 19:48:52.497+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Wi-Fi Broadcom 4313GN 802.11b/g/n 1x1-Native WiFi Filter Driver-0000:
+2016-07-05 19:48:52.497+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Wi-Fi Broadcom 4313GN 802.11b/g/n 1x1-Network Activity Hook Server - LightWeight Filter-0000:
+2016-07-05 19:48:52.498+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Wi-Fi Broadcom 4313GN 802.11b/g/n 1x1-WFP LightWeight Filter-0000:
+2016-07-05 19:48:52.498+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2016-07-05 19:48:53.190+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2016-07-05 19:48:53.190+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2016-07-05 19:48:53.191+0000 INFO  [o.n.k.i.f.GraphDatabaseFacade] Shutdown started
+2016-07-05 19:49:14.138+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] No locking implementation specified, defaulting to 'community'
+2016-07-05 19:49:14.142+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2016-07-05 19:49:14.143+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2016-07-05 19:49:14.143+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2016-07-05 19:49:14.143+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.db.tuning.properties=C:\Users\User\Desktop\project4_neo4j\project4_neo4j\movielens.graphdb\neo4j.properties
+2016-07-05 19:49:14.143+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.database.location=C:\Users\User\Desktop\project4_neo4j\project4_neo4j\movielens.graphdb
+2016-07-05 19:49:14.143+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.querylog.filename=data/log/queries.log
+2016-07-05 19:49:14.143+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_store.location=C:\Users\User\Desktop\project4_neo4j\project4_neo4j\movielens.graphdb\.\dbms\auth
+2016-07-05 19:49:14.144+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_certificate_file=C:\Users\User\Desktop\project4_neo4j\project4_neo4j\movielens.graphdb\.\dbms\ssl\snakeoil.cert
+2016-07-05 19:49:14.144+0000 INFO  [o.n.k.i.DiagnosticsManager] remote_shell_enabled=true
+2016-07-05 19:49:14.144+0000 INFO  [o.n.k.i.DiagnosticsManager] edition=Community
+2016-07-05 19:49:14.144+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_key_file=C:\Users\User\Desktop\project4_neo4j\project4_neo4j\movielens.graphdb\.\dbms\ssl\snakeoil.key
+2016-07-05 19:49:14.144+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2016-07-05 19:49:14.144+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2016-07-05 19:49:14.144+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2016-07-05 19:49:14.144+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2016-07-05 19:49:14.144+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2016-07-05 19:49:14.145+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2016-07-05 19:49:14.145+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2016-07-05 19:49:14.145+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2016-07-05 19:49:14.145+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2016-07-05 19:49:14.145+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2016-07-05 19:49:14.145+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2016-07-05 19:49:14.145+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2016-07-05 19:49:14.145+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 3,95 GB
+2016-07-05 19:49:14.145+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 2,30 GB
+2016-07-05 19:49:14.145+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 199,22 MB
+2016-07-05 19:49:14.145+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 7,90 GB
+2016-07-05 19:49:14.146+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 4,68 GB
+2016-07-05 19:49:14.146+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2016-07-05 19:49:14.146+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 29,32 MB
+2016-07-05 19:49:14.146+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 67,00 MB
+2016-07-05 19:49:14.146+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 899,50 MB
+2016-07-05 19:49:14.146+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2016-07-05 19:49:14.146+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2016-07-05 19:49:14.147+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=2,44 MB, used=1,37 MB, max=48,00 MB, threshold=0,00 B
+2016-07-05 19:49:14.147+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=13,50 MB, used=4,70 MB, max=311,50 MB, threshold=?
+2016-07-05 19:49:14.148+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=11,50 MB, used=11,47 MB, max=11,50 MB, threshold=?
+2016-07-05 19:49:14.148+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=42,00 MB, used=21,70 MB, max=674,50 MB, threshold=0,00 B
+2016-07-05 19:49:14.149+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Perm Gen (Non-heap memory): committed=25,00 MB, used=24,53 MB, max=82,00 MB, threshold=0,00 B
+2016-07-05 19:49:14.149+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2016-07-05 19:49:14.149+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 4
+2016-07-05 19:49:14.150+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 7684@User-HP
+2016-07-05 19:49:14.150+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2016-07-05 19:49:14.150+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/Athens
+2016-07-05 19:49:14.150+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2016-07-05 19:49:14.150+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2016-07-05 19:49:14.150+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2016-07-05 19:49:14.150+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 24.80-b11
+2016-07-05 19:49:14.150+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2016-07-05 19:49:14.151+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dexe4j.semaphoreName=Local\c:_program_files_neo4j_ce_2.3.1_bin_neo4j-ce.exe, -Dexe4j.isInstall4j=true, -Dexe4j.moduleName=C:\Program Files\Neo4j CE 2.3.1\bin\neo4j-ce.exe, -Dexe4j.tempDir=, -Dexe4j.unextractedPosition=0, -Djava.library.path=C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\HP SimplePass 2011\;C:\Program Files\Broadcom\Broadcom 802.11\Driver;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Broadcom\WHL\;C:\Program Files\Broadcom\WHL\syswow64;C:\Program Files\Broadcom\WHL\SysWow64\;C:\Program Files\Broadcom\WHL\SysWow64\syswow64;C:\Program Files (x86)\Intel\Services\IPT\;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Common Files\Propellerhead Software\ReWire\;C:\Program Files\Common Files\Propellerhead Software\ReWire\;C:\Program Files\Java\jdk1.8.0_66\bin;c:\program files\neo4j ce 2.3.1\jre\bin, -Dexe4j.consoleCodepage=cp0, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false]
+2016-07-05 19:49:14.151+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2016-07-05 19:49:14.155+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/dnsns.jar
+2016-07-05 19:49:14.156+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/bin/
+2016-07-05 19:49:14.156+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.1\jre\lib\resources.jar
+2016-07-05 19:49:14.156+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.1\jre\lib\jfr.jar
+2016-07-05 19:49:14.156+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] C:\Program Files\Neo4j CE 2.3.1\.install4j\i4jruntime.jar
+2016-07-05 19:49:14.156+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/sunmscapi.jar
+2016-07-05 19:49:14.156+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.1\jre\lib\jsse.jar
+2016-07-05 19:49:14.156+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/dns_sd.jar
+2016-07-05 19:49:14.156+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/.install4j/i4jruntime.jar
+2016-07-05 19:49:14.156+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/bin/neo4j-desktop-2.3.1.jar
+2016-07-05 19:49:14.156+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/access-bridge-64.jar
+2016-07-05 19:49:14.156+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/localedata.jar
+2016-07-05 19:49:14.156+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.1\jre\lib\sunrsasign.jar
+2016-07-05 19:49:14.156+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.1\jre\lib\jce.jar
+2016-07-05 19:49:14.157+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.1\jre\lib\rt.jar
+2016-07-05 19:49:14.157+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.1\jre\lib\charsets.jar
+2016-07-05 19:49:14.157+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/sunjce_provider.jar
+2016-07-05 19:49:14.157+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.1\jre\classes
+2016-07-05 19:49:14.157+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/zipfs.jar
+2016-07-05 19:49:14.157+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/jaccess.jar
+2016-07-05 19:49:14.157+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.1/jre/lib/ext/sunec.jar
+2016-07-05 19:49:14.157+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] C:\Program Files\Neo4j CE 2.3.1\bin\neo4j-desktop-2.3.1.jar
+2016-07-05 19:49:14.157+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2016-07-05 19:49:14.158+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\ProgramData\Oracle\Java\javapath
+2016-07-05 19:49:14.159+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\HP SimplePass 2011
+2016-07-05 19:49:14.159+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Broadcom\Broadcom 802.11\Driver
+2016-07-05 19:49:14.160+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\AMD APP\bin\x86_64
+2016-07-05 19:49:14.161+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\AMD APP\bin\x86
+2016-07-05 19:49:14.162+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Common Files\Microsoft Shared\Windows Live
+2016-07-05 19:49:14.162+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Common Files\microsoft shared\Windows Live
+2016-07-05 19:49:14.163+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32
+2016-07-05 19:49:14.163+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows
+2016-07-05 19:49:14.163+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32\wbem
+2016-07-05 19:49:14.164+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2016-07-05 19:49:14.164+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Windows Live\Shared
+2016-07-05 19:49:14.165+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static
+2016-07-05 19:49:14.165+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\WIDCOMM\Bluetooth Software
+2016-07-05 19:49:14.166+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\WIDCOMM\Bluetooth Software\syswow64
+2016-07-05 19:49:14.166+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Broadcom\WHL
+2016-07-05 19:49:14.166+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Broadcom\WHL\SysWow64
+2016-07-05 19:49:14.167+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Broadcom\WHL\SysWow64
+2016-07-05 19:49:14.167+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Broadcom\WHL\SysWow64\syswow64
+2016-07-05 19:49:14.168+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Intel\Services\IPT
+2016-07-05 19:49:14.168+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64
+2016-07-05 19:49:14.169+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin
+2016-07-05 19:49:14.169+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin
+2016-07-05 19:49:14.170+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn
+2016-07-05 19:49:14.170+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Skype\Phone
+2016-07-05 19:49:14.171+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Common Files\Propellerhead Software\ReWire
+2016-07-05 19:49:14.172+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Common Files\Propellerhead Software\ReWire
+2016-07-05 19:49:14.172+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Java\jdk1.8.0_66\bin
+2016-07-05 19:49:14.172+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Neo4j CE 2.3.1\jre\bin
+2016-07-05 19:49:14.172+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.moduleName = C:\Program Files\Neo4j CE 2.3.1\bin\neo4j-ce.exe
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.semaphoreName = Local\c:_program_files_neo4j_ce_2.3.1_bin_neo4j-ce.exe
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = c:\program files\neo4j ce 2.3.1\jre\bin
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.consoleCodepage = cp0
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = ;
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = GR
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] user.script = 
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = Service Pack 1
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.exeDir = C:\Program Files\Neo4j CE 2.3.1\bin\
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = C:\Program Files\Neo4j CE 2.3.1\bin
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.ext.udc.source = desktop
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] user.variant = 
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.tempDir = 
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = Cp1253
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.isInstall4j = true
+2016-07-05 19:49:14.173+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2016-07-05 19:49:14.174+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = C:\Users\User
+2016-07-05 19:49:14.174+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/Athens
+2016-07-05 19:49:14.174+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = Cp1253
+2016-07-05 19:49:14.174+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = User
+2016-07-05 19:49:14.174+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = C:\Program Files\Neo4j CE 2.3.1\bin\neo4j-ce.exe
+2016-07-05 19:49:14.174+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2016-07-05 19:49:14.174+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.launchName = C:\Program Files\Neo4j CE 2.3.1\bin\neo4j-ce.exe
+2016-07-05 19:49:14.174+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = el
+2016-07-05 19:49:14.174+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.windows.WToolkit
+2016-07-05 19:49:14.174+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.unextractedPosition = 0
+2016-07-05 19:49:14.174+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.appDir = C:\Program Files\Neo4j CE 2.3.1\
+2016-07-05 19:49:14.174+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = \
+2016-07-05 19:49:14.174+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2016-07-05 19:49:14.174+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2016-07-05 19:49:14.174+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.desktop = windows
+2016-07-05 19:49:14.174+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = amd64
+2016-07-05 19:49:14.174+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2016-07-05 19:49:14.255+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Software Loopback Interface 1:
+2016-07-05 19:49:14.255+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2016-07-05 19:49:14.255+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2016-07-05 19:49:14.255+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (SSTP):
+2016-07-05 19:49:14.255+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (L2TP):
+2016-07-05 19:49:14.255+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (PPTP):
+2016-07-05 19:49:14.255+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (PPPOE):
+2016-07-05 19:49:14.255+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IPv6):
+2016-07-05 19:49:14.255+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (Network Monitor):
+2016-07-05 19:49:14.255+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IP):
+2016-07-05 19:49:14.256+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface RAS Async Adapter:
+2016-07-05 19:49:14.256+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IKEv2):
+2016-07-05 19:49:14.256+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe FE Family Controller:
+2016-07-05 19:49:14.256+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:28a7:57a:991f:e9e9%11
+2016-07-05 19:49:14.256+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Microsoft 6to4:
+2016-07-05 19:49:14.256+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Wi-Fi Broadcom 4313GN 802.11b/g/n 1x1:
+2016-07-05 19:49:14.256+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 192.168.1.5
+2016-07-05 19:49:14.256+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 2a02:582:24bb:e600:f0b0:51ab:47b:cefd
+2016-07-05 19:49:14.256+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 2a02:582:24bb:e600:35d9:e260:a792:6ad8
+2016-07-05 19:49:14.256+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:f0b0:51ab:47b:cefd%13
+2016-07-05 19:49:14.256+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Συσκευή Bluetooth (προσωπικό δίκτυο):
+2016-07-05 19:49:14.257+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Bluetooth Device (RFCOMM Protocol TDI):
+2016-07-05 19:49:14.257+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Bluetooth Personal Area Network:
+2016-07-05 19:49:14.257+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:8d51:44f5:544a:82f3%16
+2016-07-05 19:49:14.257+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface null:
+2016-07-05 19:49:14.257+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Microsoft ISATAP #2:
+2016-07-05 19:49:14.257+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Microsoft ISATAP #4:
+2016-07-05 19:49:14.257+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Microsoft ISATAP #5:
+2016-07-05 19:49:14.257+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Microsoft ISATAP #3:
+2016-07-05 19:49:14.257+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:5efe:c0a8:105%21
+2016-07-05 19:49:14.257+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Wi-Fi Broadcom 4313GN 802.11b/g/n 1x1-QoS Packet Scheduler-0000:
+2016-07-05 19:49:14.258+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Wi-Fi Broadcom 4313GN 802.11b/g/n 1x1-Virtual WiFi Filter Driver-0000:
+2016-07-05 19:49:14.258+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe FE Family Controller-Network Activity Hook Server - LightWeight Filter-0000:
+2016-07-05 19:49:14.258+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe FE Family Controller-QoS Packet Scheduler-0000:
+2016-07-05 19:49:14.258+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IPv6)-Network Activity Hook Server - LightWeight Filter-0000:
+2016-07-05 19:49:14.258+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000:
+2016-07-05 19:49:14.258+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (Network Monitor)-Network Activity Hook Server - LightWeight Filter-0000:
+2016-07-05 19:49:14.258+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000:
+2016-07-05 19:49:14.258+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IP)-Network Activity Hook Server - LightWeight Filter-0000:
+2016-07-05 19:49:14.258+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe FE Family Controller-WFP LightWeight Filter-0000:
+2016-07-05 19:49:14.258+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IP)-QoS Packet Scheduler-0000:
+2016-07-05 19:49:14.258+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Wi-Fi Broadcom 4313GN 802.11b/g/n 1x1-Native WiFi Filter Driver-0000:
+2016-07-05 19:49:14.258+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Wi-Fi Broadcom 4313GN 802.11b/g/n 1x1-Network Activity Hook Server - LightWeight Filter-0000:
+2016-07-05 19:49:14.259+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Προσαρμογέας Wi-Fi Broadcom 4313GN 802.11b/g/n 1x1-WFP LightWeight Filter-0000:
+2016-07-05 19:49:14.259+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2016-07-05 19:49:14.293+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2016-07-05 19:49:14.293+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2016-07-05 19:49:14.294+0000 INFO  [o.n.k.i.f.GraphDatabaseFacade] Shutdown started
